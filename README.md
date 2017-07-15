@@ -4,7 +4,7 @@ Image transformation microlibrary that runs in browser using HTML5 canvas - writ
 ## Getting Started
 Download the minified JavaScript file and include it in your project
 
-##Usage
+## Usage
 The MyImageTransformation.gray method takes an HTMLImageElement (cannot contain a crossorgin attribute that will violate CORS and taint the canvas) and returns a grayscaled version of that HTMLImageElement
 
 ```javascript
@@ -26,6 +26,6 @@ MyImageTransformation.rotate(document.getElementById('imageElementToTransform'),
 | rotate        | Rotates the image clockwise by 90, 180 or 270 degrees     |
 
 
-##Testing
+## Testing
 Testing was completed using standalone Jasmine.  Simply open SpecRunner.html to run the specs
 
